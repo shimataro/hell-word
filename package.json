@@ -1,0 +1,20 @@
+{
+  "name": "@shimataro/hell-word",
+  "version": "0.1.0",
+  "description": "地獄の言葉",
+  "main": "./dist/index",
+  "scripts": {
+    "build": "gulp build",
+    "build:cjs": "gulp build:cjs",
+    "build:mjs": "gulp build:mjs",
+    "postinstall": "npm run build"
+  },
+  "author": "shimataro",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-rename": "^1.3.0"
+  }
+}
