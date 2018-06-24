@@ -6,7 +6,7 @@ CJS / ES Modules / Babel 対応パッケージの例
 ## インストール
 
 ```bash
-npm install hell-word
+npm install @shimataro/hell-word
 ```
 
 ## 使い方
@@ -14,17 +14,17 @@ npm install hell-word
 ### CJS
 
 ```javascript
-const {default: foo, bar} = require("hell-word");
+const {default: foo, bar} = require("@shimataro/hell-word");
 
-console.log(foo(1, 2)); // 1 + 2
-console.log(bar(3, 4)); // 3 * 4
+foo(); // "hell, word"
+bar(); // "地獄の言葉"
 ```
 
 ### ES Modules(.mjs) / Babel
 
 ```javascript
-import foo, {bar} from "hell-word";
+import foo, {bar} from "@shimataro/hell-word";
 
-console.log(foo(1, 2)); // 1 + 2
-console.log(bar(3, 4)); // 3 * 4
+foo(); // "hell, word"
+bar(); // "地獄の言葉"
 ```

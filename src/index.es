@@ -1,7 +1,7 @@
-export default function foo(a, b) {
-	return a + b;
+export default function foo() {
+	console.log("hell, word");
 };
 
-export function bar(a, b) {
-	return a * b;
+export function bar() {
+	console.log("地獄の言葉");
 }

@@ -1,8 +1,11 @@
 {
   "name": "@shimataro/hell-word",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "地獄の言葉",
   "main": "./dist/index",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
   "scripts": {
     "build": "gulp build",
     "build:cjs": "gulp build:cjs",
